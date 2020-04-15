@@ -4,7 +4,8 @@
     <!-- <exercise1/> -->
     <!-- <exercise2/> -->
     <!-- <exercise3/> -->
-    <exercise4/>
+    <!-- <exercise4/> -->
+    <exercise5/>
   </div>
 </template>
 
@@ -12,7 +13,8 @@
 // import Exercise1 from './components/Exercise1.vue'
 // import Exercise2 from './components/Exercise2.vue'
 // import Exercise3 from './components/Exercise3.vue'
-import Exercise4 from './components/Exercise4.vue'
+// import Exercise4 from './components/Exercise4.vue'
+import Exercise5 from './components/Exercise5.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     // Exercise1,
     // Exercise2,
     // Exercise3
-    Exercise4
+    // Exercise4
+    Exercise5
   }
 }
 </script>
