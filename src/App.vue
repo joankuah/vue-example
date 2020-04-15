@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <h1>Tutorial</h1>
+    <!-- <h1>Tutorial</h1> -->
     <!-- <exercise1/> -->
     <!-- <exercise2/> -->
     <!-- <exercise3/> -->
     <!-- <exercise4/> -->
-    <exercise5/>
+    <!-- <exercise5/> -->
+    <h1>Course Project</h1>
+    <base-page/>
   </div>
 </template>
 
@@ -14,16 +16,18 @@
 // import Exercise2 from './components/Exercise2.vue'
 // import Exercise3 from './components/Exercise3.vue'
 // import Exercise4 from './components/Exercise4.vue'
-import Exercise5 from './components/Exercise5.vue'
+// import Exercise5 from './components/Exercise5.vue'
+import BasePage from './components/BasePage.vue'
 
 export default {
   name: 'App',
   components: {
-    // Exercise1,
-    // Exercise2,
+    // Exercise1
+    // Exercise2
     // Exercise3
     // Exercise4
-    Exercise5
+    // Exercise5
+    BasePage
   }
 }
 </script>
