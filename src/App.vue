@@ -1,11 +1,19 @@
 <template>
-  <div id="app">
-    <h1>Tutorial</h1>
+  <div id="container">
+      <exercise6-header/>
+    <hr>
+    <div class="row">
+      <exercise6-list/>
+      <exercise6-details/>
+    </div>
+    <hr>
+      <exercise6-footer/>
+    <!-- <h1>Tutorial</h1> -->
     <!-- <exercise1/> -->
     <!-- <exercise2/> -->
     <!-- <exercise3/> -->
     <!-- <exercise4/> -->
-    <exercise5/>
+    <!-- <exercise5/> -->
   </div>
 </template>
 
@@ -14,7 +22,11 @@
 // import Exercise2 from './components/Exercise2.vue'
 // import Exercise3 from './components/Exercise3.vue'
 // import Exercise4 from './components/Exercise4.vue'
-import Exercise5 from './components/Exercise5.vue'
+// import Exercise5 from './components/Exercise5.vue'
+import Exercise6Header from './components/shared/Exercise6Header.vue'
+import Exercise6List from './components/server/Exercise6List.vue'
+import Exercise6Details from './components/server/Exercise6Details.vue'
+import Exercise6Footer from './components/shared/Exercise6Footer.vue'
 
 export default {
   name: 'App',
@@ -23,7 +35,11 @@ export default {
     // Exercise2,
     // Exercise3
     // Exercise4
-    Exercise5
+    // Exercise5
+    Exercise6Header,
+    Exercise6List,
+    Exercise6Details,
+    Exercise6Footer
   }
 }
 </script>
