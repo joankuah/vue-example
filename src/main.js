@@ -10,6 +10,8 @@ export const eventBus = new Vue({
   }
 })
 
+export const serverBus = new Vue()
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')
